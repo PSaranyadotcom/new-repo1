@@ -55,4 +55,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: playwright-trace
-          path: test-report/
+          path: playwright-report/

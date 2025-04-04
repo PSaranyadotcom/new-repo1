@@ -1,0 +1,11 @@
+command to install allure reports module
+npm i -D @playwright/test allure-playwright
+
+installing allure command line
+sudo npm install -g allure-commandline --save-dev
+
+generate allure reports
+allure generate my-allure-results -o allure-report --clean
+
+open allure report
+allure open allure-report

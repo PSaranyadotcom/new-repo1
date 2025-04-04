@@ -25,7 +25,7 @@ jobs:
           path: ~/.cache/ms-playwright
           key: 'playwright-${{ runner.os }}-chromium'
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
       - name: Install Playwright Browsers
         run: npx playwright install chromium
       - name: Check Playwright Version
